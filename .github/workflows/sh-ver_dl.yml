@@ -3,15 +3,15 @@ name: Download R binaries - zsh ver
 on:
   workflow_dispatch:
 
-# jobs:
-#   run-script:
-#     runs-on: ubuntu-latest
-#     steps:
-#     - name: Checkout code
-#       uses: actions/checkout@v3
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-#     - name: Run bash script
-#       run: bash ./R-binaries/dl_script.sh
+    - name: Run bash script
+      run: bash ./R-binaries/dl_script.sh
 
 #     - name: Commit changes
 #       uses: EndBug/add-and-commit@v7
