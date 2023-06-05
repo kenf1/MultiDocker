@@ -1,4 +1,4 @@
-name: Download R binaries
+name: Download R binaries - R ver
 
 on:
   workflow_dispatch:
@@ -17,7 +17,7 @@ jobs:
         Rscript -e 'install.packages("stringr")'
 
     - name: Run R script
-      run: Rscript dl_script.R
+      run: Rscript ./R-binaries/dl_script.R
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v7
