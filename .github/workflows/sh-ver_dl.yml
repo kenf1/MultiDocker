@@ -1,0 +1,22 @@
+name: Download R binaries - zsh ver
+
+on:
+  workflow_dispatch:
+
+# jobs:
+#   run-script:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v3
+
+#     - name: Run bash script
+#       run: bash ./R-binaries/dl_script.sh
+
+#     - name: Commit changes
+#       uses: EndBug/add-and-commit@v7
+#       with:
+#         message: "Download binaries"
+#         committer_name: GitHub Actions
+#         committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+#         add: "./R-binaries"
