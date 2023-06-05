@@ -14,7 +14,7 @@ jobs:
       uses: r-lib/actions/setup-r@v2
     
     - name: Run R script 1
-      run: Rscript ./Sandbox/actions_install.R
+      run: Rscript -e 'install.packages("./R-binaries/stringr-1.5.0.tar.gz",repos=NULL,type="source")'
 
     - name: Run R script 2
       run: Rscript ./R-binaries/dl_script.R
