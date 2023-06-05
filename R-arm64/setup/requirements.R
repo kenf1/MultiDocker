@@ -6,7 +6,7 @@ to_install <- c(
     "hexSticker"
 )
 
-install.packages(to_install)
+install.packages(to_install,ncpus=4)
 devtools::install_github("kenf1/kqol")
 
 gc()
