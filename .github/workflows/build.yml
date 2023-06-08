@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          dockerfile: ./R-x64/Dockerfile
+          file: ./R-x64/Dockerfile
           push: true
           platforms: linux/arm64
-          tags: ghcr.io/kenf1/MultiDocker/R-arm64:latest
+          tags: ghcr.io/kenf1/multidocker/r-arm64:latest
