@@ -11,7 +11,7 @@ The pre-built images include:
 |---|---|---|
 |~~R-arm64~~|~~Run R natively for arm64 devices~~|On hold|
 |R-x64|Run R via emulation for arm64 devices|Pass|
-|PyR|Python + R for arm64 devices|In progress|
+|PyR|Python + R for arm64 devices|Pass|
 |R-rmd|Rmarkdown|In progress|
 |ExtCreator|Sandbox to build vs code extension + extension pack|In progress|
 
@@ -21,7 +21,8 @@ The pre-built images include:
 
 |Name|Status|
 |---|---|
-|Build & push to GHCR|[![Build & push to GHCR](https://github.com/kenf1/MultiDocker/actions/workflows/build.yml/badge.svg)](https://github.com/kenf1/MultiDocker/actions/workflows/build.yml)|
+|Build R-x64 for arm64|[![Build & push to GHCR](https://github.com/kenf1/MultiDocker/actions/workflows/build.yml/badge.svg)](https://github.com/kenf1/MultiDocker/actions/workflows/build.yml)|
+|Build PyR for arm64|[![Build PyR](https://github.com/kenf1/MultiDocker/actions/workflows/build_pyr.yml/badge.svg)](https://github.com/kenf1/MultiDocker/actions/workflows/build_pyr.yml)|
 |Download R binaries - R ver|[![Download R binaries - R ver](https://github.com/kenf1/MultiDocker/actions/workflows/r-ver_dl.yml/badge.svg)](https://github.com/kenf1/MultiDocker/actions/workflows/r-ver_dl.yml)|
 |Download R binaries - zsh ver|[![Download R binaries - zsh ver](https://github.com/kenf1/MultiDocker/actions/workflows/sh-ver_dl.yml/badge.svg)](https://github.com/kenf1/MultiDocker/actions/workflows/sh-ver_dl.yml)|
 |Install package from binary|[![Install package from binary](https://github.com/kenf1/MultiDocker/actions/workflows/installR.yml/badge.svg)](https://github.com/kenf1/MultiDocker/actions/workflows/installR.yml)|
