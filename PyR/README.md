@@ -1,3 +1,3 @@
 ## PyR
 
-Python + R dev container for arm64 devices built using Docker stages.
+Python + R dev container for arm64 devices built using Docker multi-stage.

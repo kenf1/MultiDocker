@@ -1,4 +1,4 @@
-FROM python:3.11.3-slim as lang1
+FROM python:3.11.4-slim as lang1
 COPY ./PyR/src /src
 COPY ./PyR/setup /setup
 

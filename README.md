@@ -1,6 +1,7 @@
 ## MultiDocker
 
-Build multiple Docker images from monorepo
+> Build multiple Docker images from monorepo.
+> ***Emphasis on images for arm64 devices.***
 
 ### Contents
 
@@ -12,6 +13,7 @@ The pre-built images include:
 |R-x64|Run R via emulation for arm64 devices|Pass|
 |PyR|Python + R for arm64 devices|In progress|
 |R-rmd|Rmarkdown|In progress|
+|ExtCreator|Sandbox to build vs code extension + extension pack|In progress|
 
 ***Note***: `dl_vsix.sh` or `dl_vsix.py` is meant to be run once, manually. It is used to cut down on install time under x64 emulation.
 
